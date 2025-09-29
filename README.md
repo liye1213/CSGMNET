@@ -18,7 +18,7 @@ We propose CSGMNet, an improved framework built on HBGNet, which introduces two 
 ## Data Preprocessing
 1.We crop the original images and their corresponding annotations into 256×256 patches to standardize the input size for training.
 
-2.Patches with less than 30% parcel coverage are discarded to reduce class imbalance, and the remaining data are split into 5,499 training samples, 1,376 validation samples, and 1,208 testing samples to ensure a balanced dataset for model development and evaluation.
+2.Patches with less than 30% parcel coverage are discarded to reduce class imbalance, and the remaining data are split into 5,499 training samples, 1,376 validation samples, and 1,208 testing samples to ensure a balanced dataset for model development and evaluation at AI4Boundaries.
 
 3.We apply multiple data augmentation techniques, including flipping, mirroring, Gaussian noise, contrast adjustment, scaling, and mix-up, to enhance sample diversity and improve model generalization..
 
